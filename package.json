@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-data-cityofchicago",
-  "version": "0.1.0",
-  "description": "City of Chicago Socrata open-data portal",
+  "version": "0.1.1",
+  "description": "data.cityofchicago.org Socrata MCP.",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-data-cityofchicago": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "data-cityofchicago"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-data-cityofchicago"
+    "url": "git+https://github.com/pipeworx-io/mcp-data-cityofchicago.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-e6f7418b7eb92a7d39ed75a9b74447e4926639472cc856194ebe8e0110da3674",
+    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
   }
 }
