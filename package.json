@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-data-cityofchicago",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "data.cityofchicago.org Socrata MCP.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-e6f7418b7eb92a7d39ed75a9b74447e4926639472cc856194ebe8e0110da3674",
-    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
+    "sourceHash": "v1-52256b624f6fea3520ade19979c13f01b5a480e8af130f828f0bdc955849899a",
+    "sourceCommit": "5b29c2b0c11e1fcd954969a245b474e6e9475116"
   }
 }

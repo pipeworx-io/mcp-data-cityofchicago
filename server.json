@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/data-cityofchicago",
   "title": "Data Cityofchicago",
   "description": "data.cityofchicago.org Socrata MCP.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "websiteUrl": "https://pipeworx.io/packs/data-cityofchicago",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-data-cityofchicago",
