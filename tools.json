@@ -1,0 +1,68 @@
+[
+  {
+    "name": "datasets",
+    "description": "Search dataset catalogue.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string"
+        },
+        "limit": {
+          "type": "number"
+        },
+        "offset": {
+          "type": "number"
+        }
+      }
+    }
+  },
+  {
+    "name": "query",
+    "description": "SoQL query.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "resource_id": {
+          "type": "string"
+        },
+        "where": {
+          "type": "string"
+        },
+        "select": {
+          "type": "string"
+        },
+        "group": {
+          "type": "string"
+        },
+        "order": {
+          "type": "string"
+        },
+        "limit": {
+          "type": "number"
+        },
+        "offset": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "resource_id"
+      ]
+    }
+  },
+  {
+    "name": "metadata",
+    "description": "Resource metadata.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "resource_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "resource_id"
+      ]
+    }
+  }
+]
